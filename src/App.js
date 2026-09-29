@@ -10,7 +10,7 @@ import { ServiziStudio } from "./ServiziStudio";
 // ─────────────────────────────────────────────────────────────
 // Build constants (v2.0)
 // ─────────────────────────────────────────────────────────────
-const APP_VERSION = "2.2";
+const APP_VERSION = "2.2.1";
 const BUILD_DATE_LABEL = "29/09/2026"; // Data fissa della release, non cambia ogni giorno
 
 // ─────────────────────────────────────────────────────────────
