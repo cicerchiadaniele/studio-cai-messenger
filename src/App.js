@@ -5,12 +5,13 @@ import {
   ChevronDown, Paperclip, X, Info, FileText, User, MapPin, Sparkles, Lock,
   Hash, Home, Users, Wrench, Calendar, ClipboardList
 } from "lucide-react";
+import { ServiziStudio } from "./ServiziStudio";
 
 // ─────────────────────────────────────────────────────────────
 // Build constants (v2.0)
 // ─────────────────────────────────────────────────────────────
-const APP_VERSION = "2.1";
-const BUILD_DATE_LABEL = "23/09/2026"; // Data fissa della release, non cambia ogni giorno
+const APP_VERSION = "2.2";
+const BUILD_DATE_LABEL = "29/09/2026"; // Data fissa della release, non cambia ogni giorno
 
 // ─────────────────────────────────────────────────────────────
 // Helpers
@@ -834,6 +835,8 @@ export default function CondoMessenger() {
       </main>
 
       {/* Footer */}
+      <ServiziStudio />
+
       <footer className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-8">
         <div className="bg-white/70 backdrop-blur rounded-2xl ring-1 ring-neutral-200 p-4 sm:p-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-sm">
